@@ -19,3 +19,5 @@ Download this PowerBuilder demo application, and use RESTClient in the applicati
 2. Set up and run the  [.NET-DataStore-Example](https://github.com/Appeon/.NET-DataStore-Example).
 3. Run the PowerBuilder project, and specify Model Type, URL and Theme in Settings.
 
+Note: If you fail to run the application or fail to import the DLL “DemoAPI.dll” using the C# Class Importer Tool provided in 2019 R2, please check if the  DemoAPI.dll file is blocked. If it is, please unblock it and restart PowerBuilder. 
+ 
