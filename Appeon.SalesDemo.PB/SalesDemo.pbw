@@ -3,4 +3,5 @@ Save Format v3.0(19990112)
  0 "salesdemo.pbt";
 @end;
 DefaultTarget "salesdemo.pbt";
+SharpSolution "..\\.NET-DataStore-Example\\.NET-DataStore-Example.sln";
 DefaultRemoteTarget "salesdemo.pbt";

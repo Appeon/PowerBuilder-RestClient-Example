@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:10" HideTabHeader="false" HidePanelText="false">
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:10" >
   <RibbonItems>
     <ApplicationButton Text="Sales CRM Demo" Enabled="true" Tag="MyApp">
       <ApplicationMenu>
         <Master>
-          <Item Text="Settings" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="Settings" Type="Normal!" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
-          <Item Text="Help" PictureName="HelpBig!" Checked="false" Enabled="true" Tag="Help" Type="Normal!" Selected="ue_MenuHelpSelected">
-            <Item Text="Elevate 2019" PictureName=".\image\ElevateBig.png" Checked="false" Enabled="true" Tag="HelpContents" Type="Normal!" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
-            <Item Text="About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About app" Type="Normal!" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          <Item Text="Settings" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="Settings"  Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          <Item Text="Help" PictureName="HelpBig!" Checked="false" Enabled="true" Tag="Help" Type="0" Selected="ue_MenuHelpSelected">
+            <Item Text="Elevate 2019" PictureName=".\image\ElevateBig.png" Checked="false" Enabled="true" Tag="HelpContents" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+            <Item Text="About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About app" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
           </Item>
-          <Item Type="Separator!" />
-          <Item Text="Quit" PictureName=".\image\quit.png" Checked="false" Enabled="true" Tag="Quit" Type="Normal!" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+        <Item Type="1"></Item>		
+          <Item Text="Quit" PictureName=".\image\quit.png" Checked="false" Enabled="true" Tag="Quit" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
         </Master>
         <Recent Title="Frequent places">
-          <Item Text="Address" Checked="false" Enabled="true" Tag="Address" Type="Recent!" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
-          <Item Text="Customer" Checked="false" Enabled="true" Tag="Customer" Type="Recent!" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
-          <Item Text="Product" Checked="false" Enabled="true" Tag="Product" Type="Recent!" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
-          <Item Text="Order" Checked="false" Enabled="true" Tag="Order" Type="Recent!" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
-          <Item Text="Statistics" Checked="false" Enabled="true" Tag="Statistics" Type="Recent!" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Address" Checked="false" Enabled="true" Tag="Address" Type ="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Customer" Checked="false" Enabled="true" Tag="Customer" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Product" Checked="false" Enabled="true" Tag="Product" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Order" Checked="false" Enabled="true" Tag="Order" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Statistics" Checked="false" Enabled="true" Tag="Statistics" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
         </Recent>
       </ApplicationMenu>
     </ApplicationButton>
