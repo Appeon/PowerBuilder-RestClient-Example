@@ -11,7 +11,7 @@
           </Item>
         <Item Type="1"></Item>		
           <Item Text="Quit" PictureName=".\image\quit.png" Checked="false" Enabled="true" Tag="Quit" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
-        </Master>
+        </Master>C
         <Recent Title="Frequent places">
           <Item Text="Address" Checked="false" Enabled="true" Tag="Address" Type ="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
           <Item Text="Customer" Checked="false" Enabled="true" Tag="Customer" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
@@ -49,6 +49,7 @@
           </Group>
           <Group NewLine="true">
             <SmallButton Text="Export" PictureName="ExportSmall!" Clicked="ue_smallbuttonclicked" Tag="Export" Enabled="false" PowerTipText="Export" PowerTipDescription="Export the Data." />
+	    <SmallButton Text="Cancel" PictureName="RedoSmall!" Clicked="ue_smallbuttonclicked" Tag="Cancel" Enabled="false" PowerTipText="Cancel" PowerTipDescription="Cancel the data." />
           </Group>
         </Panel>
         <Panel Text="View" PictureName="ActionsSmall!" Enabled="true" Tag="View">
