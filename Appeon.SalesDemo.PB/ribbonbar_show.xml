@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:10" >
+  <RibbonItems>
+    <ApplicationButton Text="Sales CRM Demo" Enabled="true" Tag="MyApp">
+      <ApplicationMenu>
+        <Master>
+          <Item Text="Settings" PictureName="AccountSettingsBig!" Checked="false" Enabled="true" Tag="Settings"  Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          <Item Text="Help" PictureName="HelpBig!" Checked="false" Enabled="true" Tag="Help" Type="0" Selected="ue_MenuHelpSelected">
+            <Item Text="Elevate 2019" PictureName=".\image\ElevateBig.png" Checked="false" Enabled="true" Tag="HelpContents" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+            <Item Text="About" PictureName="AboutBig!" Checked="false" Enabled="true" Tag="About app" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+          </Item>
+        <Item Type="1"></Item>		
+          <Item Text="Quit" PictureName=".\image\quit.png" Checked="false" Enabled="true" Tag="Quit" Type="0" Clicked="ue_MasterMenuClicked" Selected="ue_MasterMenuSelected" />
+        </Master>C
+        <Recent Title="Frequent places">
+          <Item Text="Address" Checked="false" Enabled="true" Tag="Address" Type ="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Customer" Checked="false" Enabled="true" Tag="Customer" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Product" Checked="false" Enabled="true" Tag="Product" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Order" Checked="false" Enabled="true" Tag="Order" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+          <Item Text="Statistics" Checked="false" Enabled="true" Tag="Statistics" Type="2" Clicked="ue_recentmenuclicked" Selected="ue_recentmenuselected" />
+        </Recent>
+      </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+      <Category Text="Home" Enabled="true" Tag="Home">
+        <Panel Text="Windows" PictureName="TabsSmall!" Enabled="true" Tag="Tabs">
+          <LargeButton Text="Lists" PictureName=".\image\List.png" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Windows" PowerTipDescription="Windows operations" Tag="Lists" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected">
+          </LargeButton>
+          <Group NewLine="true">
+            <SmallButton Text="Close All" PictureName="CloseAllSmall!" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Close All" PowerTipDescription="Close all tabs" Tag="Close All" Clicked="ue_smallbuttonclicked" Selected="ue_smallbuttonselected" />
+          </Group>
+          <Group NewLine="true">
+            <SmallButton Text="Close" PictureName="CloseSmall!" Checked="false" DefaultCommand="true" Enabled="false" PowerTipText="Close" PowerTipDescription="Close Window" Tag="Close" Clicked="ue_smallbuttonclicked" Selected="ue_smallbuttonselected" />
+          </Group>
+        </Panel>
+        <Panel Text="Boards" PictureName="BoardSmall!" Enabled="true" Tag="Boards">
+          <LargeButton Text="Address" PictureName=".\image\Blue\address.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Address" PowerTipDescription="Address infomation" Tag="Address" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Customer" PictureName=".\image\Blue\customer.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Customer" PowerTipDescription="Customer infomation" Tag="Customer" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Product" PictureName=".\image\Blue\product.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Product" PowerTipDescription="Product infomation" Tag="Product" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Order" PictureName=".\image\Blue\order.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Order" PowerTipDescription="Order infomation" Tag="Order" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+          <LargeButton Text="Statistics" PictureName=".\image\Blue\statistics.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Statistics" PowerTipDescription="Statistics infomation" Tag="Statistics" Clicked="ue_largebuttonclicked" Selected="ue_largebuttonselected" />
+        </Panel>
+        <Panel Text="Action" PictureName="ActionsSmall!" Enabled="true" Tag="Action">
+          <Group NewLine="true">
+            <SmallButton Text="Add" PictureName="AddSmall!" Clicked="ue_smallbuttonclicked" Tag="Add" Enabled="false" PowerTipText="Add" PowerTipDescription="Add a new row." />
+            <SmallButton Text="Delete" PictureName="DeleteSmall!" Clicked="ue_smallbuttonclicked" Tag="Delete" Enabled="false" PowerTipText="Delete" PowerTipDescription="Delete currently row." />
+            <SmallButton Text="Edit" PictureName="ModifySmall!" Clicked="ue_smallbuttonclicked" Tag="Edit" Enabled="false" PowerTipText="Edit" PowerTipDescription="Edit currently data." />
+            <SmallButton Text="Save" PictureName="SaveSmall!" Clicked="ue_smallbuttonclicked" Tag="Save" Enabled="false" PowerTipText="Save" PowerTipDescription="Save the Data." />
+          </Group>
+          <Group NewLine="true">
+            <SmallButton Text="Export" PictureName="ExportSmall!" Clicked="ue_smallbuttonclicked" Tag="Export" Enabled="false" PowerTipText="Export" PowerTipDescription="Export the Data." />
+	    <SmallButton Text="Cancel" PictureName="RedoSmall!" Clicked="ue_smallbuttonclicked" Tag="Cancel" Enabled="false" PowerTipText="Cancel" PowerTipDescription="Cancel the data." />
+          </Group>
+        </Panel>
+        <Panel Text="View" PictureName="ActionsSmall!" Enabled="true" Tag="View">
+          <Group NewLine="true">
+            <SmallButton PictureName="NavFirstSmall!" Clicked="ue_smallbuttonclicked" Tag="First" Enabled="false" PowerTipText="First" PowerTipDescription="Rollback to the first row." />
+            <SmallButton PictureName="NavPrevSmall!" Clicked="ue_smallbuttonclicked" Tag="Prior" Enabled="false" PowerTipText="Prior" PowerTipDescription="Rollback to the prior row." />
+            <SmallButton PictureName="NavNextSmall!" Clicked="ue_smallbuttonclicked" Tag="Next" Enabled="false" PowerTipText="Next" PowerTipDescription="Rollback to the next row." />
+            <SmallButton PictureName="NavLastSmall!" Clicked="ue_smallbuttonclicked" Tag="Last" Enabled="false" PowerTipText="Last" PowerTipDescription="Rollback to the last row." />
+          </Group>
+          <Group NewLine="true">
+            <SmallButton PictureName="SortSmall!" Clicked="ue_smallbuttonclicked" Tag="Sort" Enabled="false" PowerTipText="Sort" PowerTipDescription="Sort currently data." />
+            <SmallButton PictureName="FilterSmall!" Clicked="ue_smallbuttonclicked" Tag="Filter" Enabled="false" PowerTipText="Filter" PowerTipDescription="Filter currently data." />
+          </Group>
+        </Panel>
+        <Panel Text="Print" PictureName="PrintSmall!" Enabled="true" Tag="Print">
+          <LargeButton Text="Print" PictureName="PrintBig!" Clicked="ue_ButtonPrintClicked" Enabled="false" Tag="Print" />
+          <ComboBox PictureName="PageSizeSmall!" Label="" AllowEdit="true" AutoScale="false" Text="" AutoHScroll="false" Enabled="false" PowerTipText="Page Size" PowerTipDescription="Page size information." HScrollBar="false" VScrollBar="false" SelectedIndex="1" Sorted="true" Tag="Page Size" BoxHeight="600" BoxWidth="300" Width="400" Modified="ue_ComboBoxPageSizeModified" Selected="ue_ComboBoxPageSizeSelected" SelectionChanged="ue_ComboBoxPageSizeSelectionChanged">
+            <Item Text="A0" PictureName="PaperSizeA0Small!" />
+            <Item Text="A1" PictureName="PaperSizeA1Small!" />
+            <Item Text="A2" PictureName="PaperSizeA2Small!" />
+            <Item Text="A3" PictureName="PaperSizeA3Small!" />
+            <Item Text="A4" PictureName="PaperSizeA4Small!" />
+          </ComboBox>
+          <SmallButton Text="Preview" PictureName="PreviewSmall!" Clicked="ue_ButtonPreviewClicked" Enabled="false" Tag="Preview" />
+          <CheckBox Text="Print Title" Checked="false" Enabled="false" PowerTipText="Print Title" PowerTipDescription="Pring title information." ThreeState="false" Tag="Print Title" Clicked="ue_CheckBoxPrintTitleClicked" Selected="ue_CheckBoxPrintTitleSelected" />
+        </Panel>
+      </Category>
+      <Category Text="Navigate" Enabled="true" Tag="Navigate">
+        <Panel Text="Zoom" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom">
+          <LargeButton Text="Zoom" PictureName="ZoomInBig!" Clicked="ue_ButtonZoomClicked" />
+          <LargeButton Text="100%" PictureName="PaperActualSizeBig!" Clicked="ue_ButtonActualSizeClicked" />
+          <SmallButton Text="One Page" PictureName="ShowOnePageSmall!" Clicked="ue_ButtonOnePageClicked" />
+          <SmallButton Text="Two Pages" PictureName="ShowTwoPagesSmall!" Clicked="ue_ButtonTwoPagesClicked" />
+          <SmallButton Text="Fit to Orginal Width" PictureName="FitWidthSmall!" Clicked="ue_ButtonFitWidthClicked">
+            <Menu>
+              <Item Text="Fit Page Width" PictureName="FitPageWidthSmall!" Clicked="ue_MenuFitPageWidthClicked" />
+              <Item Text="Fit Window Width" PictureName="FitWindowWidthSmall!" Clicked="ue_MenuFitWindowWidthClicked" />
+              <Item Text="Zoom to Page Level" PictureName="ZoomPageLevelSmall!" Clicked="ue_MenuZoomPageLevelClicked" />
+            </Menu>
+          </SmallButton>
+        </Panel>
+        <Panel Text="Show/Hide" PictureName="ShowHideSmall!" Enabled="true" Tag="Show/Hide">
+          <CheckBox Text="VScrollBar" Checked="false" Enabled="true" PowerTipText="VScrollBar Title" PowerTipDescription="Show VScrollBar or not" ThreeState="false" Tag="VScrollBarTitle" Clicked="ue_CheckBoxVScrollBarClicked" Selected="ue_CheckBoxVScrollBarSelected" />
+          <CheckBox Text="HScrollBar" Checked="false" Enabled="true" PowerTipText="HScrollBar Title" PowerTipDescription="Show HScrollBar or not" ThreeState="false" Tag="HscrollBarTitle" Clicked="ue_CheckBoxHScrollBarClicked" Selected="ue_CheckBoxHScrollBarSelected" />
+          <CheckBox Text="TitleBar" Checked="false" Enabled="true" PowerTipText="Title" PowerTipDescription="Show TitleBar or not in the datawindow" ThreeState="false" Tag="TitleBar" Clicked="ue_CheckBoxTitleBarClicked" Selected="ue_CheckBoxTitleBarSelected" />
+          <CheckBox Text="Preview" Checked="false" Enabled="true" PowerTipText="Preview Title" PowerTipDescription="Priview Or Not" ThreeState="false" Tag="PrintViewTitle" Clicked="ue_CheckBoxPrevewClicked" Selected="ue_CheckBoxPrevewSelected" />
+          <CheckBox Text="Ruler" Checked="false" Enabled="true" PowerTipText="Ruler Title" PowerTipDescription="Show Ruler or not in the priview mode" ThreeState="false" Tag="RulerTitle" Clicked="ue_CheckBoxRulerClicked" Selected="ue_CheckBoxRulerSelected" />
+        </Panel>
+      </Category>
+    </Categories>
+    <TabButtons>
+      <TabButton Text="Minimize" PictureName="ArrowUpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Minimize" PowerTipDescription="Minimize or maximize RibbonBar." Tag="Tab Minimize" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected" />
+      <TabButton Text="Elevate 2019" PictureName=".\image\Elevate.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Elevate 2019" PowerTipDescription="Elevate 2019." Tag="Tab Help" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected" />
+      <TabButton Text="Screen Saver" PictureName=".\image\screensaver.png" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Screen Saver" PowerTipDescription="Screen Saver." Tag="Screen Saver" Clicked="ue_TabButtonClicked" Selected="ue_TabButtonSelected" />
+    </TabButtons>
+  </RibbonItems>
+</RibbonBar>
