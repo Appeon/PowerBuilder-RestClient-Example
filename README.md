@@ -1,6 +1,11 @@
 # <b>Appeon.SalesDemo.PB</b>
 
-This PowerBuilder application is the example client application of  [.NET-DataStore-Example](https://github.com/Appeon/.NET-DataStore-Example). It is developed using Appeon PowerBuilder 2019 R2.
+This demo is a PowerBuilder client application, developed with Appeon PowerBuilder 2019 R2. It showcases some of the new features added since the version of PowerBuilder 2019, including:
+
+1. How to call Web APIs via RESTClient.
+2. How to use the UI Theme.
+3. How to use the RibbonBar control.
+4. How to use the new WebBrowser control to display the Google Charts report.
 
 ### Sample Project Structure
 
@@ -20,4 +25,3 @@ Download this PowerBuilder demo application, and use RESTClient in the applicati
 3. Run the PowerBuilder project, and specify Model Type, URL and Theme in Settings.
 
 Note: If you fail to run the application or fail to import the DLL "DemoAPI.dll" using the .NET DLL Importer provided in 2019 R2, please check if the DemoAPI.dll file is blocked. If it is, please unblock it and restart PowerBuilder.
-
