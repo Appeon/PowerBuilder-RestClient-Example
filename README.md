@@ -1,6 +1,6 @@
 # <b>Appeon.SalesDemo.PB</b>
 
-This demo is a PowerBuilder application, developed with Appeon PowerBuilder 2019 R2. It showcases some of the new features added since the version of PowerBuilder 2019, including:
+This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2019 R2](https://www.appeon.com/products/powerbuilder). It showcases some of the new features added since the version of PowerBuilder 2019, including:
 
 1. How to call Web APIs via RESTClient.
 2. How to use the UI Theme.
