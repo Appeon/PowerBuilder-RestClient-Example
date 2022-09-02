@@ -1,6 +1,6 @@
 # <b>Appeon.SalesDemo.PB</b>
 
-This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2021](https://www.appeon.com/products/powerbuilder). It showcases some of the new features added since the version of PowerBuilder 2019, including:
+This demo is a PowerBuilder application, developed with Appeon [PowerBuilder 2022](https://www.appeon.com/products/powerbuilder). It showcases some of the new features added since the version of PowerBuilder 2019, including:
 
 1. How to call Web APIs via RESTClient.
 2. How to use the UI Theme.
@@ -20,7 +20,7 @@ The project is structured as follows.
 
 Download this PowerBuilder demo application, and use RESTClient in the application to call the Web APIs created in [.NET-DataStore-Example](https://github.com/Appeon/.NET-DataStore-Example).
 
-1. Open the PowerBuilder project in PowerBuilder 2021.
+1. Open the PowerBuilder project in PowerBuilder 2022.
 2. Set up and run the [.NET-DataStore-Example](https://github.com/Appeon/.NET-DataStore-Example).
 3. Run the PowerBuilder project, and specify Model Type, URL and Theme in Settings.
 
